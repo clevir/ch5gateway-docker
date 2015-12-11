@@ -8,12 +8,12 @@
 #
 
 # Start from Guacamole guacd image
-FROM glyptodon/guacd:0.9.7
+FROM glyptodon/guacd:0.9.8
 MAINTAINER Dennis Oosterkamp <DOosterkamp@Clevir.nl>
 
 ENV \
-    GUAC_VERSION=0.9.7 \
-    CLEVIR_VERSION=0.9.7.7251
+    GUAC_VERSION=0.9.8 \
+    CLEVIR_VERSION=0.9.8
 
 # Start guacd, listening on port 0.0.0.0:4822
 EXPOSE 4822
